@@ -1,0 +1,30 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "LinearAcceleration",
+  "type": "record",
+  "doc": "Vector quantifying the direction and magnitude of the measured linear acceleration that a UxV is exposed to",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "x",
+      "type": "float",
+      "doc": "Rotation around the body's longitudinal axis",
+      "unit": "m/s/s"
+    },
+    {
+      "name": "y",
+      "type": "float",
+      "doc": "Rotation around the body's lateral or transverse axis",
+      "unit": "m/s/s"
+    },
+    {
+      "name": "z",
+      "type": "float",
+      "doc": "Rotation around the body's vertical axis. A value of 0 means the body is oriented towards true north",
+      "unit": "m/s/s"
+    }
+  ]
+}

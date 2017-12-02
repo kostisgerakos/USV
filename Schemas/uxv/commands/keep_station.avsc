@@ -1,0 +1,38 @@
+{
+  "namespace": "eu.rawfie.uxv.commands",
+  "name": "KeepStation",
+  "type": "record",
+  "doc": "",
+  "fields": [
+    {
+      "name": "header",
+      "type": "eu.rawfie.uxv.Header"
+    },
+    {
+      "name": "location",
+      "type": "eu.rawfie.uxv.Location"
+    },
+    {
+      "name": "radius",
+      "type": "float",
+      "unit": "m",
+      "min": 0
+    },
+    {
+      "name": "speed",
+      "type": [
+        "float",
+        "null"
+      ],
+      "unit": "m/s"
+    },
+    {
+      "name": "duration",
+      "type": [
+        "float",
+        "null"
+      ],
+      "unit": "s"
+    }
+  ]
+}

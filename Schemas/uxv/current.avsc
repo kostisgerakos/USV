@@ -1,0 +1,18 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "Current",
+  "type": "record",
+  "doc": "Measurement of electrical current",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "value",
+      "type": "float",
+      "unit": "A",
+      "doc": "Value"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "StorageUsage",
+  "type": "record",
+  "doc": "Measurement of storage usage",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "available",
+      "type": "int",
+      "unit": "MiB",
+      "doc": "The amount of available storage"
+    },
+    {
+      "name": "value",
+      "type": "int",
+      "unit": "%",
+      "doc": "The amount of used storage"
+    }
+  ]
+}

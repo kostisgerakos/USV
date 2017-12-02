@@ -1,0 +1,18 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "Voltage",
+  "type": "record",
+  "doc": "Measurement of electrical voltage",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "value",
+      "type": "float",
+      "unit": "V",
+      "doc": "Value"
+    }
+  ]
+}

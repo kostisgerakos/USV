@@ -1,0 +1,12 @@
+{
+  "namespace": "eu.rawfie.uxv.commands",
+  "name": "Abort",
+  "type": "record",
+  "doc": "Stops any executing actions and put the system in a standby mode",
+  "fields": [
+    {
+      "name": "header",
+      "type": "eu.rawfie.uxv.Header"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "Unit",
+  "type": "enum",
+  "symbols": [
+    "AMPERE",
+    "VOLT",
+    "BIT",
+    "BYTE",
+    "KILOGRAM",
+    "DECIBEL",
+    "KELVIN",
+    "PASCAL",
+    "HERTZ",
+    "METER",
+    "METER_PER_SECOND",
+    "METER_PER_SECOND_PER_SECOND",
+    "SECOND",
+    "SIEMENS_PER_METER",
+    "NTU",
+    "NEWTON",
+    "PERCENT",
+    "PARTS_PER_MILLION",
+    "PARTS_PER_BILLION",
+    "PSU",
+    "RADIAN",
+    "RADIAN_PER_SECOND",
+    "ROTATION_PER_MINUTE"
+  ]
+}

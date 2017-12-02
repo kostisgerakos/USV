@@ -1,0 +1,18 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "CpuUsage",
+  "type": "record",
+  "doc": "Amount of CPU resources currently in use by a UxV",
+  "fields": [
+    {
+      "name": "header",
+      "type":  "Header"
+    },
+    {
+      "name": "value",
+      "type": "int",
+      "unit": "%",
+      "doc": "Value"
+    }
+  ]
+}

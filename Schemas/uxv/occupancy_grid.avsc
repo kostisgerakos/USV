@@ -1,0 +1,46 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "OccupancyGrid",
+  "type": "record",
+  "doc": "Represents a 2-D grid map,cells represents probability of occupancy",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "map_load_time",
+      "type": "long",
+      "unit": "ms",
+      "doc": "The time at which the map was loaded"
+    },
+    {
+      "name": "map_resolution",
+      "type": "float",
+      "doc": "The map resolution m/cell"
+    },
+    {
+      "name": "map_width",
+      "type": "int",
+      "doc": "map width cells"
+    },
+    {
+      "name": "map_height",
+      "type": "int",
+      "doc": "map height cells "
+    },
+    {
+      "name": "origin",
+      "type": "Location",
+      "doc": "This is the real-world pose of the cell (0,0) in the map."
+    },
+    {
+      "name": "data",
+      "type": {
+        "type": "array",
+        "items": "int"
+      },
+      "doc": "Map data, in row-major order, starting with (0,0).  Occupancy probabilities are in the range [0,100].Unknown is -1."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "SensorInfo",
+  "type": "record",
+  "doc": "Sensor information",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "vendor_name",
+      "type": "string",
+      "doc": "Unique vendor name"
+    },
+    {
+      "name": "product_name",
+      "type": "string",
+      "doc": "Unique product name"
+    },
+    {
+      "name": "serial",
+      "type": "string",
+      "doc": "Serial number"
+    },
+    {
+      "name": "types",
+      "doc": "Array of quantities that the sensor is able to measure",
+      "type": {"type": "array", "items": "SensorType"}
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "SensorPublishControl",
+  "type": "record",
+  "doc": "Enabled/disable publishing of specific sensor data to the message bus",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "destinationModule",
+      "type": "string",
+      "doc": "Canonical name of the controlled module"
+    },
+    {
+      "name": "types",
+      "doc": "Applicable quantities",
+      "type": {"type": "array", "items": "SensorType"}
+    },
+    {
+      "name": "enabled",
+      "doc": "True to enable publishing to the message bus, false otherwise.",
+      "type": "boolean"
+    }
+  ]
+}

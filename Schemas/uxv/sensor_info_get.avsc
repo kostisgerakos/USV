@@ -1,0 +1,20 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "SensorInfoGet",
+  "type": "record",
+  "doc": "Request sensor information",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "types",
+      "doc": "A list of sensor types. One SensorInfo message shall be dispatched for each sensor whose type is contained in this list. If the list is empty one SensorInfo message shall be dispatched for each sensor that the UxV has.",
+      "type": {
+        "type": "array",
+        "items": "SensorType"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "Location",
+  "type": "record",
+  "doc": "Geographic location",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "latitude",
+      "type": "double",
+      "unit": "rad",
+      "doc": "Latitude in the WGS 84 reference coordinate system",
+      "min": -1.570796326794897,
+      "max": 1.570796326794897
+    },
+    {
+      "name": "longitude",
+      "type": "double",
+      "doc": "Longitude in the WGS 84 reference coordinate system",
+      "unit": "rad",
+      "min": -3.141592653589793,
+      "max": 3.141592653589793
+    },
+    {
+      "name": "height",
+      "type": "float",
+      "unit": "m",
+      "doc": "Height above the WGS 84 ellipsoid"
+    },
+    {
+      "name": "n",
+      "type": "double",
+      "unit": "m",
+      "doc": "The North offset of the North/East/Down field with respect to Latitude/Longitude/Height"
+    },
+    {
+      "name": "e",
+      "type": "double",
+      "unit": "m",
+      "doc": "The East offset of the North/East/Down field with respect to Latitude/Longitude/Height"
+    },
+    {
+      "name": "d",
+      "type": "double",
+      "unit": "m",
+      "doc": "The Down offset of the North/East/Down field with respect to Latitude/Longitude/Height"
+    },
+    {
+      "name": "depth",
+      "type": ["float", "null"],
+      "unit": "m",
+      "doc": "Depth"
+    },
+    {
+      "name": "altitude",
+      "type": ["float", "null"],
+      "unit": "m",
+      "doc": "Altitude"
+    }
+  ]
+}

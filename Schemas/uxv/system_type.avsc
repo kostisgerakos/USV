@@ -1,0 +1,7 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "SystemType",
+  "type": "enum",
+  "symbols": ["UUV", "USV", "UGV", "UAV", "FIXED"],
+  "doc": "System type"
+}

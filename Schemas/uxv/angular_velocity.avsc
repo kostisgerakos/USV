@@ -1,0 +1,30 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "AngularVelocity",
+  "type": "record",
+  "doc": "Vector quantifying the direction and magnitude of the measured angular velocity that a UxV is exposed to",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "x",
+      "type": "float",
+      "doc": "X component",
+      "unit": "rad/s"
+    },
+    {
+      "name": "y",
+      "type": "float",
+      "doc": "Y component",
+      "unit": "rad/s"
+    },
+    {
+      "name": "z",
+      "type": "float",
+      "doc": "Z component",
+      "unit": "rad/s"
+    }
+  ]
+}

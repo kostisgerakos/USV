@@ -1,0 +1,14 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "SensorType",
+  "type": "enum",
+  "symbols": [
+    "CURRENT",
+    "VOLTAGE",
+    "TEMPERATURE",
+    "CONDUCTIVITY",
+    "SALINITY",
+    "WATER_DENSITY",
+    "SOUND_SPEED"
+  ]
+}

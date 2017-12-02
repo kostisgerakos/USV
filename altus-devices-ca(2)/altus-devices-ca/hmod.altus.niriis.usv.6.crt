@@ -1,0 +1,98 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 69 (0x45)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=GR, ST=Attiki, L=Athens, O=RAWFIE-DI, OU=RAWFIEITUnit, CN=RAWFIE-DI CA/name=EasyRSA/emailAddress=contact@rawfie.eu
+        Validity
+            Not Before: Apr 12 08:40:39 2017 GMT
+            Not After : Apr 10 08:40:39 2027 GMT
+        Subject: C=GR, ST=Attiki, L=Athens, O=RAWFIE-DI, OU=RAWFIEITUnit, CN=hmod.altus.niriis.usv.6/name=EasyRSA/emailAddress=contact@rawfie.eu
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ec:3d:5c:52:08:19:b4:b2:8d:6a:42:d8:56:d4:
+                    a2:05:22:04:90:3c:c2:43:3c:66:ab:7d:21:c8:81:
+                    a1:8b:8c:b8:af:b6:39:b6:95:43:a8:80:bc:b4:59:
+                    b7:03:cd:18:c3:02:e2:3a:22:14:62:31:93:de:e8:
+                    87:be:fa:68:ed:58:7b:29:a0:e2:a0:0d:80:c5:af:
+                    03:70:b9:84:2a:48:33:b0:eb:5f:72:c1:2d:02:78:
+                    e1:42:50:1a:d8:d5:8c:95:03:43:bd:2b:c6:27:06:
+                    26:f1:6c:74:ca:6a:f0:27:45:2a:e1:ad:d2:e1:8b:
+                    72:4e:bc:14:e9:88:ba:21:95:b6:ca:19:b6:a6:90:
+                    47:20:4b:f9:0a:30:9d:31:6c:87:a8:53:0d:32:b4:
+                    4f:0b:c8:ef:e3:65:a1:39:4b:01:3f:e6:d8:0e:64:
+                    4a:e9:78:23:f3:de:2e:61:30:99:32:97:e2:ef:29:
+                    35:2a:ff:70:83:8d:2c:88:f1:4a:cd:d1:08:64:54:
+                    6a:0d:7c:55:ba:d2:4d:44:0b:35:28:ed:a7:70:7e:
+                    3c:89:13:aa:0b:5b:e2:1c:f4:aa:65:b2:83:a7:47:
+                    8f:f0:f9:82:5c:db:c6:41:cf:9a:6c:82:51:14:92:
+                    5f:12:16:0f:37:a4:a2:47:05:6d:51:b5:c0:4e:fa:
+                    4d:dd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                B2:FF:F4:3B:D1:E9:58:C0:CD:76:FA:24:62:50:88:8D:D5:9E:25:8F
+            X509v3 Authority Key Identifier: 
+                keyid:91:A4:1F:AE:2C:87:BB:90:C0:88:DD:63:30:07:C3:53:A5:3A:6A:93
+                DirName:/C=GR/ST=Attiki/L=Athens/O=RAWFIE-DI/OU=RAWFIEITUnit/CN=RAWFIE-DI CA/name=EasyRSA/emailAddress=contact@rawfie.eu
+                serial:C0:E6:1C:9A:D1:71:B3:B5
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+            X509v3 Subject Alternative Name: 
+                DNS:hmod.altus.niriis.usv.6
+    Signature Algorithm: sha256WithRSAEncryption
+         67:19:74:63:4c:ea:e0:c4:aa:f5:b8:94:87:eb:43:d2:f8:3b:
+         05:aa:0f:14:de:92:99:93:33:96:2d:69:8b:8f:13:8c:fa:a1:
+         a2:6e:cb:8d:4a:8c:1f:06:0e:36:77:6e:1a:03:45:0a:38:89:
+         9a:fb:3f:b4:c2:1e:92:b8:6a:4d:c1:34:3c:87:e7:31:75:b5:
+         c4:5f:b5:63:c6:a2:ee:00:3f:05:d0:4f:e4:a7:8f:86:70:2f:
+         49:33:8b:48:1c:4e:c5:e4:48:a0:22:4f:6a:67:45:30:5b:01:
+         7d:b1:f6:02:9d:af:01:8b:7c:e2:cf:e7:3f:58:f5:d3:10:ce:
+         82:cc:77:ef:06:c2:40:a7:0b:fb:63:a6:e7:01:ad:b8:6a:8c:
+         a0:9f:91:79:ca:02:54:ef:f0:79:44:20:c4:86:ca:44:03:8c:
+         7f:87:f9:a0:d2:1f:e8:70:6c:bb:9b:e8:87:b8:40:3f:4e:31:
+         9c:14:88:06:f9:ab:e7:37:5d:d6:85:bd:a4:2b:c2:a0:b8:54:
+         c7:5a:23:d4:96:27:30:32:1f:12:09:3e:6a:b5:1e:c7:b9:8e:
+         c7:ea:8f:ba:fe:52:82:0b:20:7b:7e:ae:e8:0a:80:63:c8:5f:
+         4e:f7:b7:07:c3:af:72:3b:42:07:54:a9:1b:4a:84:97:5d:ab:
+         d9:a6:e8:f1
+-----BEGIN CERTIFICATE-----
+MIIFVDCCBDygAwIBAgIBRTANBgkqhkiG9w0BAQsFADCBpTELMAkGA1UEBhMCR1Ix
+DzANBgNVBAgTBkF0dGlraTEPMA0GA1UEBxMGQXRoZW5zMRIwEAYDVQQKEwlSQVdG
+SUUtREkxFTATBgNVBAsTDFJBV0ZJRUlUVW5pdDEVMBMGA1UEAxMMUkFXRklFLURJ
+IENBMRAwDgYDVQQpEwdFYXN5UlNBMSAwHgYJKoZIhvcNAQkBFhFjb250YWN0QHJh
+d2ZpZS5ldTAeFw0xNzA0MTIwODQwMzlaFw0yNzA0MTAwODQwMzlaMIGwMQswCQYD
+VQQGEwJHUjEPMA0GA1UECBMGQXR0aWtpMQ8wDQYDVQQHEwZBdGhlbnMxEjAQBgNV
+BAoTCVJBV0ZJRS1ESTEVMBMGA1UECxMMUkFXRklFSVRVbml0MSAwHgYDVQQDExdo
+bW9kLmFsdHVzLm5pcmlpcy51c3YuNjEQMA4GA1UEKRMHRWFzeVJTQTEgMB4GCSqG
+SIb3DQEJARYRY29udGFjdEByYXdmaWUuZXUwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDsPVxSCBm0so1qQthW1KIFIgSQPMJDPGarfSHIgaGLjLivtjm2
+lUOogLy0WbcDzRjDAuI6IhRiMZPe6Ie++mjtWHspoOKgDYDFrwNwuYQqSDOw619y
+wS0CeOFCUBrY1YyVA0O9K8YnBibxbHTKavAnRSrhrdLhi3JOvBTpiLohlbbKGbam
+kEcgS/kKMJ0xbIeoUw0ytE8LyO/jZaE5SwE/5tgOZErpeCPz3i5hMJkyl+LvKTUq
+/3CDjSyI8UrN0QhkVGoNfFW60k1ECzUo7adwfjyJE6oLW+Ic9KplsoOnR4/w+YJc
+28ZBz5psglEUkl8SFg83pKJHBW1RtcBO+k3dAgMBAAGjggGAMIIBfDAJBgNVHRME
+AjAAMC0GCWCGSAGG+EIBDQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQgQ2VydGlmaWNh
+dGUwHQYDVR0OBBYEFLL/9DvR6VjAzXb6JGJQiI3VniWPMIHaBgNVHSMEgdIwgc+A
+FJGkH64sh7uQwIjdYzAHw1OlOmqToYGrpIGoMIGlMQswCQYDVQQGEwJHUjEPMA0G
+A1UECBMGQXR0aWtpMQ8wDQYDVQQHEwZBdGhlbnMxEjAQBgNVBAoTCVJBV0ZJRS1E
+STEVMBMGA1UECxMMUkFXRklFSVRVbml0MRUwEwYDVQQDEwxSQVdGSUUtREkgQ0Ex
+EDAOBgNVBCkTB0Vhc3lSU0ExIDAeBgkqhkiG9w0BCQEWEWNvbnRhY3RAcmF3Zmll
+LmV1ggkAwOYcmtFxs7UwEwYDVR0lBAwwCgYIKwYBBQUHAwIwCwYDVR0PBAQDAgeA
+MCIGA1UdEQQbMBmCF2htb2QuYWx0dXMubmlyaWlzLnVzdi42MA0GCSqGSIb3DQEB
+CwUAA4IBAQBnGXRjTOrgxKr1uJSH60PS+DsFqg8U3pKZkzOWLWmLjxOM+qGibsuN
+SowfBg42d24aA0UKOIma+z+0wh6SuGpNwTQ8h+cxdbXEX7VjxqLuAD8F0E/kp4+G
+cC9JM4tIHE7F5EigIk9qZ0UwWwF9sfYCna8Bi3ziz+c/WPXTEM6CzHfvBsJApwv7
+Y6bnAa24aoygn5F5ygJU7/B5RCDEhspEA4x/h/mg0h/ocGy7m+iHuEA/TjGcFIgG
++avnN13Whb2kK8KguFTHWiPUlicwMh8SCT5qtR7HuY7H6o+6/lKCCyB7fq7oCoBj
+yF9O97cHw69yO0IHVKkbSoSXXavZpujx
+-----END CERTIFICATE-----

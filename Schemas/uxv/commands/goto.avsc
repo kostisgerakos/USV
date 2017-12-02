@@ -1,0 +1,29 @@
+{
+  "namespace": "eu.rawfie.uxv.commands",
+  "name": "Goto",
+  "type": "record",
+  "doc": "Command a system to move to a given location at a given speed",
+  "fields": [
+    {
+      "name": "header",
+      "type": "eu.rawfie.uxv.Header"
+    },
+    {
+      "name": "location",
+      "type": "eu.rawfie.uxv.Location"
+    },
+    {
+      "name": "speed",
+      "type": [
+        "float",
+        "null"
+      ],
+      "unit": "m/s"
+    },
+    {
+      "name": "timeout",
+      "type": "float",
+      "unit": "s"
+    }
+  ]
+}

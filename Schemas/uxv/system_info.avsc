@@ -1,0 +1,36 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "SystemInfo",
+  "type": "record",
+  "doc": "General system information",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "vendor",
+      "type": "string",
+      "doc": "System vendor"
+    },
+    {
+      "name": "model",
+      "type": "string",
+      "doc": "System model"
+    },
+    {
+      "name": "type",
+      "type": "SystemType"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "doc": "Canonical system name"
+    },
+    {
+      "name": "owner",
+      "type": "string",
+      "doc": "System owner"
+    }
+  ]
+}

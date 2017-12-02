@@ -1,0 +1,22 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "SensorReadingScalar",
+  "type": "record",
+  "doc": "",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "value",
+      "type": "float",
+      "doc": "The reading value"
+    },
+    {
+      "name": "unit",
+      "type": "Unit",
+      "doc": "The reading unit"
+    }
+  ]
+}

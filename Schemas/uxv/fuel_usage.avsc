@@ -1,0 +1,18 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "FuelUsage",
+  "type": "record",
+  "doc": "Furl level",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "value",
+      "type": "int",
+      "unit": "%",
+      "doc": "The amount of available fuel"
+    }
+  ]
+}

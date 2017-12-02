@@ -1,0 +1,27 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "LinearVelocity",
+  "type": "record",
+  "doc": "Linear velocity vector",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "x",
+      "type": "float",
+      "unit": "m/s"
+    },
+    {
+      "name": "y",
+      "type": "float",
+      "unit": "m/s"
+    },
+    {
+      "name": "z",
+      "type": "float",
+      "unit": "m/s"
+    }
+  ]
+}

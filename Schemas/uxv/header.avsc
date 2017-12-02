@@ -1,0 +1,23 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "Header",
+  "type": "record",
+  "fields": [
+    {
+      "name": "sourceSystem",
+      "type": "string",
+      "doc": "Canonical name of the originating system"
+    },
+    {
+      "name": "sourceModule",
+      "type": "string",
+      "doc": "Canonical name of the module within a given system that originated the message"
+    },
+    {
+      "name": "time",
+      "type": "long",
+      "unit": "ms",
+      "doc": "Time elapsed since the Unix epoch"
+    }
+  ]
+}

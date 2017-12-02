@@ -1,0 +1,32 @@
+{
+	"databasePath" : "C:\\ALTUS_USV\\Database\\MP.db",
+	"kafkaURL" : "172.19.0.18:9092",
+	"schemaRegistryURL" : "http://172.19.0.18:8081",
+	"goToTopic" : "hmod_Goto",
+	"goToGroup" : "my_group-GoTo",
+	"abortTopic" : "hmod_Abort",
+	"abortGroup" : "my_group-Abort",
+	"MP_INTERVAL" : 1000,
+	"MP_STAT_INTERVAL" : 1.0,
+	"statisticsDelay" : 1,
+	"statisticsSystem" : "System",
+	"statisticsModule" : "Module",
+	"statisticsPartition" : 7,
+	"statisticsPath" : {
+		"header" 	 	   : "Schemas/uxv/header.avsc",
+		"location" 	 	   : "Schemas/uxv/location.avsc",
+		"attitude"	 	   : "Schemas/uxv/attitude.avsc",
+		"voltage"    	   : "Schemas/uxv/voltage.avsc",
+		"fuel_usage" 	   : "Schemas/uxv/fuel_usage.avsc",
+		"linear_velocity"  : "Schemas/uxv/linear_velocity.avsc",
+		"angular_velocity" : "Schemas/uxv/angular_velocity.avsc"
+	},
+	"statisticsTopic" : {
+		"location"  	   : "hmod_Location",
+		"attitude"	 	   : "hmod_Attitude",
+		"voltage"    	   : "hmod_Voltage",
+		"fuel_usage" 	   : "hmod_FuelUsage",
+		"linear_velocity"  : "hmod_LinearVelocity",
+		"angular_velocity" : "hmod_AngularVelocity"
+	}
+}

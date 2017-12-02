@@ -1,0 +1,56 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "LaserScan",
+  "type": "record",
+  "doc": "Single scan from a planar laser range-finder",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "angle_min",
+      "type": "float",
+      "unit": "rad"
+    },
+    {
+      "name": "angle_max",
+      "type": "float",
+      "unit": "rad"
+    },
+    {
+      "name": "angle_increment",
+      "type": "float",
+      "unit": "rad"
+    },
+    {
+      "name": "time_increment",
+      "type": "float",
+      "unit": "seconds"
+    },
+    {
+      "name": "scan_time",
+      "type": "float",
+      "unit": "seconds"
+    },
+    {
+      "name": "range_min",
+      "type": "float",
+      "unit": "m"
+    },
+    {
+      "name": "range_max",
+      "type": "float",
+      "unit": "m"
+    },
+    {
+    "name": "ranges",
+    "type": { "type": "array", "items": "float",
+    "unit": "m" }
+    },
+    {
+    "name": "intensities",
+    "type": { "type": "array", "items": "float"}
+    }
+  ]
+}

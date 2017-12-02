@@ -1,0 +1,36 @@
+{
+  "namespace": "eu.rawfie.uxv",
+  "name": "Attitude",
+  "type": "record",
+  "doc": "Angles describing the attitude (Euler angles) of a UxV",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Header"
+    },
+    {
+      "name": "phi",
+      "type": "float",
+      "doc": "Rotation around the body's longitudinal axis",
+      "unit": "rad",
+      "min": -3.141592653589793,
+      "max": 3.141592653589793
+    },
+    {
+      "name": "theta",
+      "type": "float",
+      "doc": "Rotation around the body's lateral or transverse axis",
+      "unit": "rad",
+      "min": -1.570796326794897,
+      "max": 1.570796326794897
+    },
+    {
+      "name": "psi",
+      "type": "float",
+      "doc": "Rotation around the body's vertical axis. A value of 0 means the body is oriented towards true north",
+      "unit": "rad",
+      "min": -3.141592653589793,
+      "max": 3.141592653589793
+    }
+  ]
+}
